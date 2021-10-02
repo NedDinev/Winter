@@ -1,0 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------- HEADER - START ----------- */
+
+header {
+  background: linear-gradient(rgba(70, 70, 70, 0.8), rgba(70, 70, 70, 0.8)),
+    url(images/image-bg.jpg);
+  background-size: cover;
+  padding: 20px 0 35px 0;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav ul li {
+  margin-right: 40px;
+  display: inline-flex;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ebebeb;
+}
+
+header h1,
+h2 {
+  text-align: center;
+  color: #ffffff;
+}
+
+header h1 {
+  margin-top: 150px;
+  margin-bottom: 0;
+  font-size: 60px;
+}
+header h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-style: italic;
+  font-size: 30px;
+}
+
+header button {
+  margin: 30px auto;
+  display: flex;
+  background-color: #7dc7d8;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: 0.5s;
+}
+
+header button a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 10px 20px;
+}
+
+header button:hover {
+  box-shadow: 0px 0px 29px 11px rgba(0, 0, 0, 0.6);
+  transition: 0.5s;
+}
+
+/* ----------- HEADER - END ----------- */
+
+/* ----------- MAIN - START ----------- */
+
+main {
+  background-color: #dadada;
+}
+
+.articles-with-images {
+  width: 80%;
+  background-color: #ffffff;
+  display: block;
+  margin: auto;
+}
+
+main .articles-with-images img {
+  width: 50%;
+}
+
+main .articles-with-images div {
+  display: flex;
+}
+
+main .articles-with-images div article {
+  text-align: center;
+  width: 50%;
+  padding: 0 11%;
+}
+
+main .articles-with-images h2 {
+  color: #000000;
+  font-weight: 200;
+  font-size: 35px;
+  width: 300px;
+  display: inline-block;
+  margin-top: 10%;
+  margin-bottom: 10px;
+}
+div article p {
+  line-height: 30px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+div article button {
+  background-color: transparent;
+  border: 2px solid #426977;
+  width: 200px;
+  height: 50px;
+  transition: 0.5s;
+}
+div article button a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #426977;
+}
+
+div article button:hover {
+  border-radius: 8px;
+  opacity: 60%;
+  transition: 0.5s;
+}
+
+/*-----------------------------------------*/
+
+.clients-feedback {
+  background-color: #ffffff;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.clients-feedback > h1 {
+  margin-top: 0;
+  font-size: 60px;
+  font-weight: 200;
+}
+
+.clients-feedback article {
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.clients-feedback article img {
+  width: 200px;
+  border: none;
+  border-radius: 50%;
+}
+
+.clients-feedback article p {
+  text-align: justify;
+}
+
+/* ----------- MAIN - END ----------- */
+
+/* ----------- FOOTER - START ----------- */
+
+footer {
+  background-color: #4c4c4c;
+  color: #ffffff;
+  padding: 2% 15% 0 15%;
+}
+.center {
+  display: block;
+  text-align: center;
+}
+
+.text-width {
+  width: 900px;
+  margin: auto auto 20px auto;
+  text-align: center;
+}
+.text-width h1 {
+  font-size: 50px;
+  font-weight: 300;
+}
+
+footer form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer form label {
+  text-align: start;
+  font-weight: bold;
+  display: block;
+}
+
+footer form input {
+  text-align: start;
+  display: block;
+  padding: 10px 30px;
+  margin-top: 15px;
+  background-color: #709faf;
+  border: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+footer form input:hover {
+  border-radius: 8px;
+  opacity: 80%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+footer img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* ----------- FOOTER - START ----------- */
+
+/* ----------- COPYRIGHTS - START ----------- */
+.copyright {
+  background-color: #333333;
+  width: 100%;
+  padding: 15px 0;
+}
+.copyright p {
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  color: #ffffff;
+}
+
+/* ----------- COPYRIGHTS - END ----------- */
